@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #ffe6f0; /* Fondo rosa claro */
+    background-color: #ffe6f0;
+    /* Fondo rosa claro */
     color: #333;
     margin: 0;
     padding: 0;
@@ -8,37 +9,44 @@ body {
 
 h1 {
     font-family: 'Playfair Display', serif;
-    color: #d63384; /* Color de texto rosa */
+    color: #d63384;
+    /* Color de texto rosa */
     text-align: center;
     margin-top: 20px;
 }
 
 .card-header {
-    background-color: #ffb3c1; /* Fondo rosa más oscuro */
-    border: 1px solid #ff80a6; /* Borde rosa */
+    background-color: #ffb3c1;
+    /* Fondo rosa más oscuro */
+    border: 1px solid #ff80a6;
+    /* Borde rosa */
     border-radius: 8px;
     padding: 10px;
 }
 
 .card-body {
     background-color: #fff;
-    border-top: 1px solid #ff80a6; /* Borde superior rosa */
+    border-top: 1px solid #ff80a6;
+    /* Borde superior rosa */
     padding: 20px;
 }
 
 .btn-link {
     text-decoration: none;
-    color: #d63384; /* Color del botón rosa */
+    color: #d63384;
+    /* Color del botón rosa */
     font-weight: bold;
 }
 
 .btn-link:hover {
-    color: #e60073; /* Color del botón rosa más oscuro */
+    color: #ff00d4;
+    /* Color del botón rosa más oscuro */
     text-decoration: none;
 }
 
 .accordion .card {
-    margin-bottom: 10px; /* Espacio entre cartas */
+    margin-bottom: 10px;
+    /* Espacio entre cartas */
 }
 
 .container {
@@ -48,23 +56,31 @@ h1 {
 }
 
 .card-body {
-    border-radius: 0 0 8px 8px; /* Redondeo de esquinas inferiores */
+    border-radius: 0 0 8px 8px;
+    /* Redondeo de esquinas inferiores */
 }
 
 .card-header h2 button {
     font-size: 18px;
 }
 
+.center {
+    text-align: center !important;
+    margin: auto;
+}
 
 footer {
-    background-color: #fd8ba0; /* Fondo rosa */
-    color: #fff; /* Color del texto blanco */
-    text-align: center;     
-    padding: 5px 0;
+    background-color: #fd8ba0;
+    /* Fondo rosa */
+    color: #fff;
+    /* Color del texto blanco */
+    text-align: center;
+    padding: 1px 0;
     position: fixed;
     width: 100%;
     bottom: 0;
     font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
 }
 
 footer p {
@@ -73,7 +89,7 @@ footer p {
     letter-spacing: 5px;
 }
 
-footer span{    
+footer span {
     color: red;
     font-size: 1.5rem;
 }
@@ -85,8 +101,10 @@ footer span{
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Detrás de todo el contenido */
-    background: #000; /* Fondo negro */
+    z-index: -1;
+    /* Detrás de todo el contenido */
+    background: #000;
+    /* Fondo negro */
     overflow: hidden;
 }
 
@@ -101,6 +119,11 @@ footer span{
 }
 
 @keyframes twinkle {
-    from { opacity: 1; }
-    to { opacity: 0.2; }
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0.2;
+    }
 }
