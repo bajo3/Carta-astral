@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffe6f0; /* Fondo rosa claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #d63384; /* Color de texto rosa */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #ffb3c1; /* Fondo rosa más oscuro */
+    border: 1px solid #ff80a6; /* Borde rosa */
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.card-body {
+    background-color: #fff;
+    border-top: 1px solid #ff80a6; /* Borde superior rosa */
+    padding: 20px;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #d63384; /* Color del botón rosa */
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    color: #e60073; /* Color del botón rosa más oscuro */
+    text-decoration: none;
+}
+
+.accordion .card {
+    margin-bottom: 10px; /* Espacio entre cartas */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card-body {
+    border-radius: 0 0 8px 8px; /* Redondeo de esquinas inferiores */
+}
+
+.card-header h2 button {
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #fd8ba0; /* Fondo rosa */
+    color: #fff; /* Color del texto blanco */
+    text-align: center;     
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+footer span{    
+    color: red;
+    font-size: 1.5rem;
+}
+
+
+#starfield {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Detrás de todo el contenido */
+    background: #000; /* Fondo negro */
+    overflow: hidden;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    animation: twinkle 1s infinite ease-in-out alternate;
+}
+
+@keyframes twinkle {
+    from { opacity: 1; }
+    to { opacity: 0.2; }
+}
